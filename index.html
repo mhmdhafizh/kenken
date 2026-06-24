@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scania Rahmadhany | Portfolio - Teknik Komputer & Jaringan</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23667eea'>S</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cursor Effect -->
+    <div class="cursor"></div>
+    <div class="cursor-blur"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SR</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Beranda</a>
+                <a href="#about" class="nav-link">Tentang</a>
+                <a href="#experience" class="nav-link">Pengalaman</a>
+                <a href="#education" class="nav-link">Pendidikan</a>
+                <a href="#skills" class="nav-link">Skill</a>
+                <a href="#contact" class="nav-link">Kontak</a>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="nav-underline"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="stars"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="word">Halo,</span>
+                        <span class="word">Saya</span>
+                        <span class="word highlight">Scania</span>
+                        <span class="word">Rahmadhany</span>
+                    </h1>
+                    <p class="hero-subtitle">Teknik Komputer & Jaringan | IT Support | Content Creator</p>
+                    <p class="hero-description">Saya siap memberikan solusi teknologi terbaik dengan dedikasi penuh dan inovasi yang berkelanjutan.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-target="#contact">
+                            <span>Hubungi Saya</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <button class="btn btn-secondary" onclick="downloadCV()">
+                            <span>Download CV</span>
+                            <i class="fas fa-download"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-circle">
+                        <img src="ken.png" alt="Scania Rahmadhany" class="profile-img">
+                    </div>
+                    <div class="profile-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Top Performer</span>
+                    </div>
+                </div>
+                <div class="floating-cards">
+                    <div class="float-card">
+                        <i class="fas fa-code"></i>
+                        <span>Tech Savvy</span>
+                    </div>
+                    <div class="float-card">
+                        <i class="fas fa-heart"></i>
+                        <span>Passionate</span>
+                    </div>
+                    <div class="float-card">
+                        <i class="fas fa-rocket"></i>
+                        <span>Innovative</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2 class="section-title">Tentang Saya</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="profil.png" alt="Scania Rahmadhany" class="about-img">
+            </div>
+            <div class="about-content">
+                <p class="about-text">
+                    Saya adalah seorang profesional muda yang berdedikasi di bidang <strong>Teknik Komputer dan Jaringan</strong>. Dengan latar belakang pendidikan dari SMK Negeri 3 Kota Serang, saya telah mengembangkan keahlian dalam troubleshooting, instalasi sistem, dan networking dasar.
+                </p>
+                <p class="about-text">
+                    Pengalaman saya meliputi berbagai bidang dari IT support hingga customer service dan content creation. Saya percaya bahwa kombinasi antara keahlian teknis dan soft skills adalah kunci kesuksesan dalam industri teknologi modern.
+                </p>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Pengalaman</div>
+                        <div class="stat-text">Area Kerja</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedikasi</div>
+                        <div class="stat-text">Dalam Setiap Tugas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Pertumbuhan</div>
+                        <div class="stat-text">Continuous Learning</div>
+                    </div>
+                </div>
+
+                <div class="about-cta">
+                    <button class="btn btn-outline" data-target="#contact">
+                        <span>Mari Berkolaborasi</span>
+                        <i class="fas fa-handshake"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-header">
+            <h2 class="section-title">Pengalaman Kerja</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="experience-container">
+            <div class="experience-tabs">
+                <button class="tab-btn active" data-tab="honda">
+                    <span class="tab-icon"><i class="fas fa-car"></i></span>
+                    <span>Honda</span>
+                </button>
+                <button class="tab-btn" data-tab="host">
+                    <span class="tab-icon"><i class="fas fa-broadcast-tower"></i></span>
+                    <span>Host Live</span>
+                </button>
+                <button class="tab-btn" data-tab="bakery">
+                    <span class="tab-icon"><i class="fas fa-cake-candles"></i></span>
+                    <span>Bakery</span>
+                </button>
+            </div>
+
+            <div class="experience-content">
+                <div class="tab-content active" id="honda">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3>Honda Astra Motor</h3>
+                            <span class="exp-date"><i class="fas fa-calendar"></i> Jul - Sep 2025</span>
+                        </div>
+                        <p class="exp-description">Sales & Customer Service Representative</p>
+                        <ul class="exp-list">
+                            <li><i class="fas fa-check"></i> Menjual dan mempromosikan barang kepada konsumen</li>
+                            <li><i class="fas fa-check"></i> Mencari pelanggan baru dan follow up berkala</li>
+                            <li><i class="fas fa-check"></i> Menjaga hubungan baik dengan pelanggan untuk meningkatkan penjualan</li>
+                            <li><i class="fas fa-check"></i> Menangani keluhan dan masalah pelanggan dengan profesional</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="skill-tag">Sales</span>
+                            <span class="skill-tag">Customer Service</span>
+                            <span class="skill-tag">Communication</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="host">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3>Host Live Shopping</h3>
+                            <span class="exp-date"><i class="fas fa-calendar"></i> Oct - Dec 2025</span>
+                        </div>
+                        <p class="exp-description">Live Stream Host & Product Presenter</p>
+                        <ul class="exp-list">
+                            <li><i class="fas fa-check"></i> Menjelaskan detail produk dengan menarik agar mudah dipahami penonton</li>
+                            <li><i class="fas fa-check"></i> Berinteraksi dengan audiens melalui komentar dan pertanyaan</li>
+                            <li><i class="fas fa-check"></i> Membantu meningkatkan penjualan dengan teknik komunikasi persuasif</li>
+                            <li><i class="fas fa-check"></i> Membuat konten yang engaging dan memorable</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="skill-tag">Presentation</span>
+                            <span class="skill-tag">Content Creation</span>
+                            <span class="skill-tag">Engagement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-content" id="bakery">
+                    <div class="exp-card">
+                        <div class="exp-header">
+                            <h3>Asisten Cake Bakery</h3>
+                            <span class="exp-date"><i class="fas fa-calendar"></i> Jan - Sep 2025</span>
+                        </div>
+                        <p class="exp-description">Production & Quality Control Assistant</p>
+                        <ul class="exp-list">
+                            <li><i class="fas fa-check"></i> Mengelola bahan dan membuat adonan kue dengan standar tinggi</li>
+                            <li><i class="fas fa-check"></i> Menjaga kualitas rasa, tampilan, dan kesehatan produk</li>
+                            <li><i class="fas fa-check"></i> Mengatur stok bahan serta menjaga kebersihan area kerja</li>
+                            <li><i class="fas fa-check"></i> Berkolaborasi dengan tim untuk memastikan delivery tepat waktu</li>
+                        </ul>
+                        <div class="exp-skills">
+                            <span class="skill-tag">Quality Control</span>
+                            <span class="skill-tag">Teamwork</span>
+                            <span class="skill-tag">Organization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="section-header">
+            <h2 class="section-title">Pendidikan</h2>
+            <div class="title-underline"></div>
+        </div>
+        <div class="education-timeline">
+            <div class="timeline-item" style="--delay: 0;">
+                <div class="timeline-marker">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2012 - 2018</div>
+                    <h3>SD Negeri Pipitan</h3>
+                    <p>Sekolah Dasar - Fondasi pendidikan dasar yang kuat untuk perjalanan akademis</p>
+                    <div class="timeline-badge">6 Tahun</div>
+                </div>
+            </div>
+
+            <div class="timeline-item" style="--delay: 0.2s;">
+                <div class="timeline-marker">
+                    <i class="fas fa-book"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2018 - 2021</div>
+                    <h3>Madrasah Tsanawiyah Pipitan</h3>
+                    <p>Sekolah Menengah Pertama - Pengembangan ilmu pengetahuan dan karakter</p>
+                    <div class="timeline-badge">3 Tahun</div>
+                </div>
+            </div>
+
+            <div class="timeline-item" style="--delay: 0.4s;">
+                <div class="timeline-marker">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content">
+                    <div class="timeline-year">2021 - 2023</div>
+                    <h3>SMK Negeri 3 Kota Serang</h3>
+                    <p>Teknik Komputer dan Jaringan - Keahlian teknis komputer dan networking profesional</p>
+                    <div class="timeline-badge highlight">Spesialisasi</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-header">
+            <h2 class="section-title">Keahlian & Kompetensi</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="skills-container">
+            <!-- Technical Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-tools"></i> Technical Skills
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Computer Troubleshooting</h4>
+                            <span class="level">Expert</span>
+                        </div>
+                        <p class="skill-desc">Menguasai troubleshooting hardware dan software</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Network Installation</h4>
+                            <span class="level">Advanced</span>
+                        </div>
+                        <p class="skill-desc">Instalasi jaringan dasar dan konfigurasi</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>PC Assembly</h4>
+                            <span class="level">Expert</span>
+                        </div>
+                        <p class="skill-desc">Merakit dan konfigurasi komputer</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 88%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Operating System</h4>
+                            <span class="level">Advanced</span>
+                        </div>
+                        <p class="skill-desc">Instalasi dan konfigurasi OS</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 82%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-people-group"></i> Soft Skills
+                </h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Communication</h4>
+                            <span class="level">Expert</span>
+                        </div>
+                        <p class="skill-desc">Komunikasi efektif dan presentasi menarik</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 92%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Problem Solving</h4>
+                            <span class="level">Expert</span>
+                        </div>
+                        <p class="skill-desc">Analisis dan solusi cepat untuk masalah</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Teamwork</h4>
+                            <span class="level">Expert</span>
+                        </div>
+                        <p class="skill-desc">Kolaborasi dan koordinasi tim yang baik</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <h4>Customer Service</h4>
+                            <span class="level">Advanced</span>
+                        </div>
+                        <p class="skill-desc">Layanan pelanggan yang memuaskan</p>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="skills-category">
+                <h3 class="category-title">
+                    <i class="fas fa-language"></i> Languages & Tools
+                </h3>
+                <div class="languages-grid">
+                    <div class="lang-item">
+                        <span class="lang-name">Bahasa Indonesia</span>
+                        <div class="lang-dots">
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">English</span>
+                        <div class="lang-dots">
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Microsoft Office</span>
+                        <div class="lang-dots">
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                        </div>
+                    </div>
+                    <div class="lang-item">
+                        <span class="lang-name">Adobe Creative Suite</span>
+                        <div class="lang-dots">
+                            <span class="dot active"></span>
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="hobbies">
+        <div class="section-header">
+            <h2 class="section-title">Minat & Hobi</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="hobbies-grid">
+            <div class="hobby-card" style="--color: #FF6B6B;">
+                <div class="hobby-icon">
+                    <i class="fas fa-basketball"></i>
+                </div>
+                <h3>Olahraga Basket</h3>
+                <p>Aktif bermain basket dan menghargai nilai teamwork dalam setiap permainan</p>
+                <div class="hobby-features">
+                    <span><i class="fas fa-fire"></i> Passion</span>
+                    <span><i class="fas fa-users"></i> Team</span>
+                </div>
+            </div>
+
+            <div class="hobby-card" style="--color: #4ECDC4;">
+                <div class="hobby-icon">
+                    <i class="fas fa-video"></i>
+                </div>
+                <h3>Content Creation</h3>
+                <p>Membuat konten video dan menyukai sharing pengalaman melalui platform digital</p>
+                <div class="hobby-features">
+                    <span><i class="fas fa-camera"></i> Creative</span>
+                    <span><i class="fas fa-share"></i> Social</span>
+                </div>
+            </div>
+
+            <div class="hobby-card" style="--color: #FFE66D;">
+                <div class="hobby-icon">
+                    <i class="fas fa-pen-fancy"></i>
+                </div>
+                <h3>Menulis & Storytelling</h3>
+                <p>Mengekspresikan ide dan kreativitas melalui tulisan dan cerita yang bermakna</p>
+                <div class="hobby-features">
+                    <span><i class="fas fa-lightbulb"></i> Ideas</span>
+                    <span><i class="fas fa-pen"></i> Writing</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="section-title">Mari Terhubung</h2>
+                <p class="contact-subtitle">Saya selalu terbuka untuk diskusi, kolaborasi, dan peluang baru. Hubungi saya kapan saja!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info-cards">
+                    <a href="tel:+628785862751" class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Telepon</h3>
+                        <p>+62 878 5862 7512</p>
+                        <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="mailto:scaniakeken31@gmail.com" class="contact-card">
+                        <div class="card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>scaniakeken31@gmail.com</p>
+                        <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://instagram.com/jsc4niar_" target="_blank" class="contact-card">
+                        <div class="card-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h3>Instagram</h3>
+                        <p>@jsc4niar_</p>
+                        <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://wa.me/628785862751" target="_blank" class="contact-card">
+                        <div class="card-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <h3>WhatsApp</h3>
+                        <p>Chat via WhatsApp</p>
+                        <span class="card-arrow"><i class="fas fa-arrow-right"></i></span>
+                    </a>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email Address" required>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+                            <span class="form-highlight"></span>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <span>Kirim Pesan</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-text">
+                <p>&copy; 2025 Scania Rahmadhany | Teknik Komputer & Jaringan</p>
+                <p>Designed with <i class="fas fa-heart"></i> for a better digital future</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://instagram.com/jsc4niar_" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/628785862751" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:scaniakeken31@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
